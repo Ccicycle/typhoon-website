@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>台灣颱風康芮現況</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .region {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .alert {
+            background-color: #ffcccb;
+            border: 1px solid #ff0000;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .news {
+            margin-top: 20px;
+        }
+        .news a {
+            display: block;
+            margin: 5px 0;
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>台灣颱風康芮現況</h1>
+</header>
+
+<nav>
+    <a href="#typhoon-info">颱風資訊</a>
+    <a href="#image-gallery">圖片展示</a>
+    <a href="#resources">資源連結</a>
+    <a href="#school-status">停班停課</a>
+    <a href="#news">最新新聞</a>
+</nav>
+
+<div class="content">
+    <div class="region" id="typhoon-info">
+        <h2>颱風概況</h2>
+        <p>颱風名稱：康芮</p>
+        <p>近中心風速：每秒40公尺</p>
+        <p>暴風半徑：70公里</p>
+        <p>目前位置：澎湖東北東方海面上</p>
+        <p>預計移動方向：北轉北北東</p>
+    </div>
+
+    <div class="region">
+        <h2>影響區域</h2>
+        <p>暴風圈仍籠罩全台，包括澎湖、金門、馬祖。</p>
+        <p>北北基、宜蘭、北花蓮今晚需慎防強風豪雨，預計到明天清晨才會減緩。</p>
+        <p>蘭嶼、綠島、台東及南花蓮已出現破壞性的強風豪雨，晚間風雨將趨緩。</p>
+    </div>
+
+    <div class="region">
+        <h2>未來預測</h2>
+        <p>康芮強度預估會持續減弱，12至18小時後有機會減弱為輕度颱風。</p>
+        <p>預計台灣本島脫離暴風圈的時間在明天早上，解除海警與陸警的時間預計在明天晚上。</p>
+    </div>
+
+    <div class="region" id="image-gallery">
+        <h2>圖片展示</h2>
+        <div class="image-container">
+            <img src="https://example.com/typhoon-image.jpg" alt="颱風圖片">
+            <!-- 替換成實際圖片URL -->
+        </div>
+    </div>
+
+    <div class="region" id="resources">
+        <h2>資源連結</h2>
+        <p>更多資訊請參考<a href="https://www.cwb.gov.tw" target="_blank">中央氣象局</a></p>
+    </div>
+
+    <div class="region" id="school-status">
+        <h2>停班停課資訊</h2>
+        <div class="alert">
+            <p>因颱風康芮影響，以下地區停班停課：</p>
+            <ul>
+                <li>基隆市：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>臺北市：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>新北市：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>烏來區：明天停止上班、停止上課。</li>
+                <li>桃園市：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>復興區：明天停止上班、停止上課。</li>
+                <li>新竹市：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>新竹縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>尖石鄉玉峰村：明天停止上班、停止上課。</li>
+                <li>尖石鄉秀巒村：明天停止上班、停止上課。</li>
+                <li>尖石鄉：明天照常上班、停止上課。</li>
+                <li>苗栗縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>臺中市：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>和平區：明天停止上班、停止上課。</li>
+                <li>彰化縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>雲林縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>南投縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>信義鄉：明天停止上班、停止上課。</li>
+                <li>仁愛鄉：明天停止上班、停止上課。</li>
+                <li>嘉義市：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>嘉義縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>嘉義縣竹崎鄉中和國民小學：明天停止上班、停止上課。</li>
+                <li>嘉義縣竹崎鄉中興國民小學：明天停止上班、停止上課。</li>
+                <li>嘉義縣竹崎鄉光華國民小學：明天停止上班、停止上課。</li>
+                <li>嘉義縣梅山鄉仁和國民小學(含太和分校)：明天停止上班、停止上課。</li>
+                <li>嘉義縣番路鄉大湖國民小學：明天停止上班、停止上課。</li>
+                <li>嘉義縣番路鄉隙頂國民小學：明天停止上班、停止上課。</li>
+                <li>阿里山鄉：明天停止上班、停止上課。</li>
+                <li>臺南市：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>高雄市：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>六龜區：明天停止上班、停止上課。</li>
+                <li>甲仙區：明天停止上班、停止上課。</li>
+                <li>那瑪夏區：明天停止上班、停止上課。</li>
+                <li>茂林區：明天停止上班、停止上課。</li>
+                <li>桃源區：明天停止上班、停止上課。</li>
+                <li>屏東縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>屏東縣春日鄉士文村：明天停止上班、停止上課。</li>
+                <li>霧臺鄉：明天停止上班、停止上課。</li>
+                <li>宜蘭縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>宜蘭縣大同鄉四季國民小學：明天停止上班、停止上課。</li>
+                <li>宜蘭縣大同鄉南山國民小學：明天停止上班、停止上課。</li>
+                <li>宜蘭縣立大同國民中學：明天停止上班、停止上課。</li>
+                <li>蘇澳鎮南強里、朝陽里：明天停止上班、停止上課。</li>
+                <li>南澳鄉：明天停止上班、停止上課。</li>
+                <li>花蓮縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>豐濱鄉、秀林鄉、萬榮鄉、卓溪鄉、富里鄉、玉里鎮：明天停止上班、停止上課。</li>
+                <li>臺東縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>海端鄉利稻村：明天停止上班、停止上課。</li>
+                <li>海端鄉海端村新武部落：明天停止上班、停止上課。</li>
+                <li>海端鄉霧鹿村：明天停止上班、停止上課。</li>
+                <li>澎湖縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+                <li>連江縣：今天停止上班、停止上課。明天停止上班、停止上課。</li>
+                <li>金門縣：今天停止上班、停止上課。明天照常上班、照常上課。</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="region" id="news">
+        <h2>最新新聞</h2>
+        <div class="news">
+            <a href="https://www.cna.com.tw/news/firstnews/202310310001.aspx" target="_blank">新聞標題 1 - 颱風影響報導</a>
+            <a href="https://www.bbc.com/zhongwen/trad/chinese-news-59105573" target="_blank">新聞標題 2 - 國際氣象消息</a>
+            <a href="https://udn.com/news/story/7321/7312980" target="_blank">新聞標題 3 - 停班停課最新消息</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
